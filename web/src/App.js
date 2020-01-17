@@ -3,6 +3,7 @@ import './global.css';
 
 import './App.css';
 import './Sidebar.css';
+import './Main.css';
 
 function App() {
  
@@ -40,7 +41,67 @@ function App() {
       </aside>
 
       <main>
+        <ul>
+          <li className="dev-item">
+            <header>
+              <img src="https://avatars0.githubusercontent.com/u/31857287?s=460&v=4" alt="Lucas Viga"/>
 
+              <div className="user-info">
+                <strong>Lucas Viga</strong>
+                <span>React JS, React Nativa, NodeJS</span>
+              </div>                            
+            </header>
+
+            <p>Lorem ipssum Lorem ipssum Lorem ipssum Lorem ipssum Lorem ipssum Lorem ipssum</p>
+
+            <a href="https://github.com/lucasviga">Acessar perfil no Github</a>
+          </li>
+
+          <li className="dev-item">
+            <header>
+              <img src="https://avatars0.githubusercontent.com/u/31857287?s=460&v=4" alt="Lucas Viga"/>
+
+              <div className="user-info">
+                <strong>Lucas Viga</strong>
+                <span>React JS, React Nativa, NodeJS</span>
+              </div>                            
+            </header>
+
+            <p>Lorem ipssum Lorem ipssum Lorem ipssum Lorem ipssum Lorem ipssum Lorem ipssum</p>
+
+            <a href="https://github.com/lucasviga">Acessar perfil no Github</a>
+          </li>
+
+          <li className="dev-item">
+            <header>
+              <img src="https://avatars0.githubusercontent.com/u/31857287?s=460&v=4" alt="Lucas Viga"/>
+
+              <div className="user-info">
+                <strong>Lucas Viga</strong>
+                <span>React JS, React Nativa, NodeJS</span>
+              </div>                            
+            </header>
+
+            <p>Lorem ipssum Lorem ipssum Lorem ipssum Lorem ipssum Lorem ipssum Lorem ipssum</p>
+
+            <a href="https://github.com/lucasviga">Acessar perfil no Github</a>
+          </li>
+
+          <li className="dev-item">
+            <header>
+              <img src="https://avatars0.githubusercontent.com/u/31857287?s=460&v=4" alt="Lucas Viga"/>
+
+              <div className="user-info">
+                <strong>Lucas Viga</strong>
+                <span>React JS, React Nativa, NodeJS</span>
+              </div>                            
+            </header>
+
+            <p>Lorem ipssum Lorem ipssum Lorem ipssum Lorem ipssum Lorem ipssum Lorem ipssum</p>
+
+            <a href="https://github.com/lucasviga">Acessar perfil no Github</a>
+          </li>
+        </ul>
       </main>
     </div>
   );
